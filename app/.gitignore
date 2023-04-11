@@ -1,0 +1,9 @@
+*.sqlite3
+.idea
+.env
+.mypy_cache
+env
+.DS_Store
+__pycache__
+static
+media
