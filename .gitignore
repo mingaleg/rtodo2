@@ -1,9 +1,14 @@
 *.sqlite3
 .idea
 .env
+.venv
 .mypy_cache
 env
 .DS_Store
 __pycache__
 static
 media
+
+# VS Code
+*.code-workspace
+.vscode
