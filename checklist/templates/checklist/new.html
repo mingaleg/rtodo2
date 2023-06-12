@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/django_admin_json_editor/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/django_admin_json_editor/style.css">
+        <link rel="stylesheet" href="/static/django_admin_json_editor/bootstrap/css/bootstrap.min.css">
+        <script src='/static/django_admin_json_editor/jsoneditor/jsoneditor.min.js'></script>
+        <script src='/static/django_admin_json_editor/jquery/jquery-3.5.1.slim.min.js'></script>
+        <script src='/static/django_admin_json_editor/bootstrap/js/bootstrap.bundle.min.js'></script>
+    </head>
+    <body>
+        <div class='bootstrap4'>
+            <form action = "" method = "post">
+                {% csrf_token %}
+                {{form }}
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

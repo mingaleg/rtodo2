@@ -1,2 +1,5 @@
 .mypy_cache
 env
+.venv
+.vscode
+.github
