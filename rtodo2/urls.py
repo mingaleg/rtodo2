@@ -20,6 +20,7 @@ import nested_admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('checklist', include('checklist.urls')),
+    path('checklist/', include('checklist.urls')),
+    path('', include('homepage.urls')),
     # path(r'^_nested_admin/', nested_admin.urls),
 ]
